@@ -33,6 +33,10 @@ nav a {
     margin: 0 15px;
 }
 
+nav a:hover {
+    color: #FFB6C1; /* Light Pink - change to your desired hover color */
+}
+
 section {
     padding: 40px 0;
 }
@@ -55,7 +59,6 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
 
 @media (max-width: 600px) {
     nav a {
