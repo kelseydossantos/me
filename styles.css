@@ -21,6 +21,18 @@ h1, h2 {
     color: #333; /* Dark Grey */
 }
 
+nav {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffd3c2;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+}
+
 section {
     padding: 40px 0;
 }
@@ -39,6 +51,9 @@ footer {
     color: #FFF;
     text-align: center;
     padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 
