@@ -13,24 +13,25 @@ body {
 header {
     background-color: #FFB6C1; /* Light Pink */
     color: #FFF; /* White */
-    text-align: left;
-    padding: 20px 0;
+    text-align: center;
+    padding: 10px 0;
 }
 
 h1, h2 {
+    margin: 0;
+    font-size: 24px;
     color: #333; /* Dark Grey */
 }
 
 nav {
-    text-align: right;
-    padding: 10px;
-    background-color: #ffd3c2;
+    display: inline-block;
+    margin-top: 10px;
 }
 
 nav a {
     text-decoration: none;
     color: #333;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 nav a:hover {
