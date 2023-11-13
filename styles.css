@@ -24,7 +24,7 @@ h1, h2 {
 }
 
 #profile-image {
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
     display: block;
 }
@@ -32,29 +32,15 @@ h1, h2 {
 .about-content {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; /* Center the content horizontally */
     flex-wrap: wrap;
 }
 
 .text-content {
     max-width: 600px; /* Adjust as needed for your design */
-    margin-right: 20px; /* Adjust as needed for spacing */
+    margin-left: 20px; /* Adjust as needed for spacing */
 }
 
-@media (max-width: 768px) {
-    .about-content {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    #profile-image {
-        margin-top: 20px; /* Adjust as needed for spacing */
-    }
-
-    .text-content {
-        margin: 0; /* Reset margin for smaller screens */
-    }
-}
 
 nav {
     display: inline-block;
