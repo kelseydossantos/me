@@ -32,7 +32,7 @@ h1, h2 {
 
 @media (min-width: 768px) {
     #profile-image {
-        max-width: 80%; /* can be adjusted for larger screens */
+        max-width: 30%; /* can be adjusted for larger screens */
     }
 }
 
