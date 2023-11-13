@@ -23,6 +23,14 @@ h1, h2 {
     color: #333; /* Dark Grey */
 }
 
+#profile-image {
+    max-width: 100%;
+    height: auto;
+    display: block; /* This helps to center the image horizontally */
+    margin: 0 auto; /* This also helps to center the image horizontally */
+}
+
+
 nav {
     display: inline-block;
     margin-top: 10px;
