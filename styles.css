@@ -27,7 +27,6 @@ h1, h2 {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto;
 }
 
 .about-content {
@@ -39,7 +38,7 @@ h1, h2 {
 
 .text-content {
     max-width: 600px; /* Adjust as needed for your design */
-    margin-left: 20px; /* Adjust as needed for spacing */
+    margin-right: 20px; /* Adjust as needed for spacing */
 }
 
 @media (max-width: 768px) {
@@ -49,7 +48,7 @@ h1, h2 {
     }
 
     #profile-image {
-        margin-bottom: 20px; /* Adjust as needed for spacing */
+        margin-top: 20px; /* Adjust as needed for spacing */
     }
 
     .text-content {
