@@ -30,13 +30,32 @@ h1, h2 {
     margin: 0 auto;
 }
 
-@media (min-width: 768px) {
-    #profile-image {
-        max-width: 30%; /* can be adjusted for larger screens */
-    }
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
+.text-content {
+    max-width: 600px; /* Adjust as needed for your design */
+    margin-left: 20px; /* Adjust as needed for spacing */
+}
 
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #profile-image {
+        margin-bottom: 20px; /* Adjust as needed for spacing */
+    }
+
+    .text-content {
+        margin: 0; /* Reset margin for smaller screens */
+    }
+}
 
 nav {
     display: inline-block;
